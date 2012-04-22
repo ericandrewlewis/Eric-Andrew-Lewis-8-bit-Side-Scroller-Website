@@ -1,0 +1,114 @@
+@font-face {
+    font-family: "Harabara";
+    src: url("fonts/Harabara.ttf");
+}
+body {
+    color: #414141;
+    font-family: Helvetica;
+    overflow:hidden;
+    margin:0px;
+    padding:0px;
+    width:10000px;
+}
+#container {
+    text-align:center;
+    width:10000px;
+    background-color:blue;
+}
+#me {
+    position:absolute;
+    bottom:0px;
+    left: 500px;
+    z-index: 30;
+}
+#banner {
+    bottom:350px;
+    left:50px;
+    position:absolute;
+}
+h1 {
+    color:#e92280;
+    font-family: Helvetica;
+    font-weight: 800;
+    font-size: 36pt;
+    letter-spacing:0pt;
+}
+#about-me {
+    bottom:350px;
+    left:1250px;
+    position:absolute;
+    width: 400px;
+}
+
+#social {
+    bottom:350px;
+    left:2250px;
+    position:absolute;
+    width: 400px;
+}
+
+#resume {
+    bottom:350px;
+    left:3150px;
+    position:absolute;
+    width: 400px;
+}
+
+a, a:visited {
+    color:#e92280;
+    text-decoration:none;
+}
+
+a:hover, a:visited:hover {
+    color:#e92280;
+    text-decoration:underline;
+}
+
+#hills-1 {
+    background-image:url(http://ericandrewlewis.nfshost.com/images/8-bit-site/hills-1.gif);
+    position:absolute;
+    bottom:0px;
+    left:-2000px;
+    width:12000px;
+    height:120px;
+    z-index:-1;
+}
+.preloaded-image {
+    display:none;
+}
+
+.block-big {
+    background-color: gray;
+    height: 150px;
+    width: 300px;
+    position: absolute;
+}
+
+.block-small {
+    background-color: gray;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+}
+.block-1 {
+    bottom:0px;
+    left: 900px;
+}
+
+.block-2 {
+    bottom:0px;
+    left: 1500px;
+}
+
+.block-3 {
+    bottom:150px;
+    left: 1200px;
+}
+
+.block-4 {
+    bottom:420px;
+    left: 1600px;
+}
+.debug {
+    display:none;
+}
