@@ -1,0 +1,28 @@
+html,
+body {
+  height: 100%;
+  background: #282c34;
+}
+
+/* The animation code */
+@keyframes example {
+  from {
+    transform: translateY(-100px);
+  }
+  to {
+    transform: translateY(100%);
+  }
+}
+
+.rectangle {
+  fill: #cae9ff;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.svg-background {
+  height: 100%;
+  width: 100%;
+}
