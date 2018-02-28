@@ -1,23 +1,36 @@
 html,
 body {
   height: 100%;
-  background: #282c34;
+  background: #141212;
 }
 
 /* The animation code */
 @keyframes example {
   from {
-    transform: translateY(-100px);
+    transform: translateY(0);
   }
   to {
     transform: translateY(100%);
   }
 }
 
-.rectangle {
-  fill: #cae9ff;
+.far-stars-container {
+  animation-name: example;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.medium-stars-container {
   animation-name: example;
   animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.near-stars-container {
+  animation-name: example;
+  animation-duration: 2s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
